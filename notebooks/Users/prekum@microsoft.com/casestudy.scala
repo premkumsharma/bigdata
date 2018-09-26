@@ -6,7 +6,7 @@
 
 val defaultMoviesUrl = "https://prekumteststorage.blob.core.windows.net/data/movies.csv"
 val defaultRatingsUrl = "adl://prekumtestlakestore.azuredatalakestore.net/data/ratings.csv"
-
+//test
 val moviesUrl = dbutils.widgets.text("moviesUrl","")
 val ratingsUrl = dbutils.widgets.text("ratingsUrl", "")
 
